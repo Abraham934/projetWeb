@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: gold;
+    background-color: whitesmoke;
     font-family: Century Gothic;
     color: #222;
     line-height: 1.6;
@@ -615,4 +615,26 @@ body{
 
 .whatsapp-btn:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
 }
